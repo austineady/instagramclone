@@ -10,9 +10,15 @@
     </div>
     <div class="like-box">
       <i class="fa fa-heart"></i>
+        {{#each card.likes as |like|}}
+          <span class="social-like"><strong>{{like}}</strong></span>
+        {{/each}}
     </div>
     <div class="description-box">
       <p class="description"><strong>{{card.username}}</strong> {{card.description}}</p>
+      {{#each card.comments as |comment|}}
+        <p class="social-comment"><strong>{{comment.username}}</strong> {{comment.comment}}</p>
+      {{/each}}
     </div>
   </div>
 {{/each}}

@@ -1,0 +1,150 @@
+/* * {
+  border: 1px solid black;
+} */
+
+.index {
+  width: 414px;
+  height: 736px;
+  padding-bottom: 70px;
+  background-color: rgba(248, 248, 248, 1);
+  overflow-y: scroll;
+}
+
+.index-header {
+  width: 414px;
+  height: 60px;
+  background-color: rgba(46, 94, 131, 1);
+  text-align: center;
+}
+
+.index-title {
+  width: 200px;
+  color: white;
+  float: left;
+  margin-left: 100px;
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.index-header-inbox {
+  color: white;
+  float: left;
+  margin-left: 70px;
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.user-information {
+  width: 400px;
+  height: 40px;
+  overflow: hidden;
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.profile-picture {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.username {
+  float: left;
+  padding: 5px;
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.picture {
+  width: 414px;
+}
+
+.description {
+  margin-top: 0;
+}
+
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 414px;
+  height: auto;
+}
+
+.social-box {
+  width: 400px;
+  height: 100px;
+  padding: 5px;
+}
+
+.fa-comment {
+  color: silver;
+  float: left;
+  margin-right: 10px;
+}
+
+.fa-heart {
+  font-size: 15px;
+  color: rgba(35, 84, 123, 1);
+}
+
+.app-footer {
+  position: fixed;
+  bottom: 0;
+  width: 414px;
+  height: 70px;
+  background-color: rgba(17, 20, 25, 1);
+}
+
+.nav-footer {
+  height: 70px;
+  width: 78.51px;
+  text-align: center;
+  display: inline-block;
+  line-height: 85px;
+  border: 0;
+  background-color: inherit;
+}
+
+.create {
+  background-color: rgba(43, 90, 128, 1);
+}
+
+.nav-icon {
+  font-size: 35px;
+  color: white;
+}
+
+.nav-footer:hover {
+  background-color: rgba(0, 2, 3, 1);
+}
+
+.social-icons {
+  width: 400px;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  margin-bottom: 10px;
+}
+
+.index-social {
+  color: silver;
+  font-size: 20px;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.more-icon {
+  float: right;
+}
+
+.like-box {
+  width: 414px;
+}
+
+.description-box {
+  width: 400px;
+  padding-left: 30px;
+}

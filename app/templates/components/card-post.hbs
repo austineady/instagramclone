@@ -1,0 +1,18 @@
+{{#each cards as |card|}}
+  <div class="user-information">
+    <img class="profile-picture" src={{card.profilepicture}} />
+    <h4 class="username">{{card.username}}</h4>
+  </div>
+  <img class="picture" src="{{card.url}}" />
+  <div class="social-box">
+    <div class="social-icons">
+      <i class="fa fa-heart-o index-social like-icon"></i><i class="fa fa-comment-o index-social comment-icon"></i><i class="fa fa-ellipsis-v index-social more-icon"></i>
+    </div>
+    <div class="like-box">
+      <i class="fa fa-heart"></i>
+    </div>
+    <div class="description-box">
+      <p class="description"><strong>{{card.username}}</strong> {{card.description}}</p>
+    </div>
+  </div>
+{{/each}}

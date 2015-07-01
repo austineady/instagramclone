@@ -2,12 +2,25 @@
   border: 1px solid black;
 } */
 
+::-webkit-input-placeholder {
+  color: black;
+}
+
 .index {
   width: 414px;
   height: 736px;
   padding-bottom: 70px;
   background-color: rgba(248, 248, 248, 1);
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
+}
+
+.landing-page {
+  width: 414px;
+  height: 736px;
+  padding-bottom: 70px;
+  background-color: rgba(248, 248, 248, 1);
+  background-image: url('https://download.unsplash.com/reserve/fPuLkQNXRUKI6HQ2cMPf_IMG_4761.jpg');
+  background-size: cover;
 }
 
 .index-header {
@@ -17,7 +30,91 @@
   text-align: center;
 }
 
+.onboarding-header {
+  width: 414px;
+  height: 60px;
+  background-color: rgba(46, 94, 131, .9);
+  text-align: center;
+}
+
+.facebook-sign-up-button {
+  width: 400px;
+  height: 50px;
+  border: 0;
+  background-color: rgba(46, 94, 131, .7);
+  color: white;
+  margin-left: 7px;
+  margin-top: 200px;
+}
+
+.email-sign-up-button {
+  width: 400px;
+  height: 50px;
+  border: 0;
+  background-color: rgba(255, 255, 255, .7);
+  margin-left: 7px;
+  margin-top: 50px;
+}
+
+.current-user-log-in-button {
+  width: 400px;
+  height: 50px;
+  border: 0;
+  background-color: rgba(255, 255, 255, .7);
+  margin-left: 7px;
+  margin-top: 50px;
+}
+
+.session-create {
+  width: 390px;
+  height: 40px;
+  border: 0;
+  background-color: rgba(255, 255, 255, .8);
+  margin-left: 3.5px;
+  margin-top: 50px;
+  padding: 5px;
+  outline: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+.session-button {
+  height: 50px;
+  margin-top: 200px;
+  margin-left: 10px;
+}
+
+.session-button:hover {
+  border: 5px solid white;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  transition: 1s;
+}
+
+.user-create {
+  width: 390px;
+  height: 40px;
+  border: 0;
+  background-color: rgba(255, 255, 255, .7);
+  margin-left: 3.5px;
+  margin-top: 50px;
+  padding: 5px;
+  outline: none;
+  font-size: 20px;
+  text-align: center;
+}
+
 .index-title {
+  width: 200px;
+  color: white;
+  float: left;
+  margin-left: 100px;
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.onboarding-title {
   width: 200px;
   color: white;
   float: left;

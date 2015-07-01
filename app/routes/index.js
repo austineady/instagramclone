@@ -6,8 +6,3 @@ export default Ember.Route.extend({
     return this.store.findAll('card');
   }
 });
-
-/*model: function(){
-    return this.store.findAll('pin');
-  } -->
-*/

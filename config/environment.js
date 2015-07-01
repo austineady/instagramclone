@@ -24,8 +24,11 @@ module.exports = function(environment) {
       'font-src': "'self'",
       'connect-src': "'self' api.parse.com",
       'img-src': "'self'",
-      'style-src': "'self'",
+      'style-src': "'self' 'unsafe-inline' 'fonts.googleapis.com' 'fonts.googleapis.com' 'maxcdn.bootstrapcdn.com' 'fonts.gstatic.com' 'download.unsplash.com'",
       'media-src': "'self'"
+    },
+    'simple-auth': {
+      routeAfterAuthentication: 'landing'
     }
   };
 
